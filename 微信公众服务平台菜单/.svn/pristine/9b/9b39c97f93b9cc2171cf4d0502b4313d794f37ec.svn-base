@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>微信公众服务平台菜单</title>
+	<link type="text/css" rel="stylesheet" href="css/public.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<!--[if  IE 6]> 
+<div id="ie6-warning">
+    您正在使用IE6或以IE6为内核的浏览器，可能导致本网站无法正常显示。建议您升级到 <a href="http://www.microsoft.com/china/windows/internet-explorer/"
+        target="_blank">Internet Explorer 8</a> 或使用： <a href="http://www.mozillaonline.com/">
+            Firefox</a> / <a href="http://www.google.com/chrome/?hl=zh-CN">Chrome</a><a id="ie6-close" href="javascript:void(0)">关闭</a> 
+</div>
+<script type="text/javascript">
+$body=$('body');
+$body.addClass('ie6');
+$('#ie6-close').click(function(){
+    $body.removeClass('ie6');
+    $('#ie6-warning').hide();
+})
+</script>
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="css/mystyle.css">
+<!--wrapper-->
+<div class="wrapper">
+	<div class="content inner fn-clearfix">
+        <div class="side">
+            <div class="tree-hd">
+                <a class="menu-add" href="javascript:void(0);">+添加菜单</a>
+            </div>
+            <div class="tree-ft">
+                <div class="btn">
+                    <a class="save" href="javascript:void(0);">保存</a>
+                    <div class="notice-save">
+                        <p>已向微信公众服务平台提交修改菜单申请，请耐心等待!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main fn-fr">
+            <ul class="nav">
+                <!--<li class="nav-item">
+                    <a class="menuItem" href="">教育平台</a>
+                    <span class="edit">
+                        <a class="icon-add" href="javascript:void(0);"></a><a class="icon-edit" href="javascript:void(0);"></a><a class="icon-del" href="javascript:void(0);"></a>
+                    </span>
+                    <i class="menu-more"></i>
+                    <ul class="subNav">
+                        <li class="subNav-item">
+                            <a class="menuItem" href="">教育平台</a>
+                            <span class="edit">
+                                <a class="icon-edit-sub" href="javascript:void(0);"></a><a class="icon-del" href="javascript:void(0);"></a>
+                            </span>
+                        </li>
+                        <li class="subNav-item">
+                            <a class="menuItem" href="">教育平台</a>
+                            <span class="edit">
+                                <a class="icon-edit-sub" href="javascript:void(0);"></a><a class="icon-del" href="javascript:void(0);"></a>
+                            </span>
+                        </li>
+                    </ul>
+                </li>-->
+            </ul>
+        </div><!--main-->
+        <div class="mask">
+            <div class="mask-main">
+                <div class="mask-hd">
+                    <h3 class="title">菜单设置</h3>
+                    <a class="close" href="javascript:void(0);">X</a>
+                </div>
+                <div class="mask-bd">
+                    <!-- 标志弹窗类型 -->
+                    <input type="hidden" value="" id="tabType"/>
+                    <div class="menuName">
+                        <lable>菜单名称：</lable>
+                        <input id="tabName" type="text" value=""/>
+                    </div>
+                    <div class="menuName">
+                        <lable>链接地址：</lable>
+                        <input id="tabLink" type="text" value="http://"/>
+                    </div>
+                    <div class="btn">
+                        <a class="btn-confirm" href="javascript:void(0);">确定</a>
+                        <a class="btn-cancel" href="javascript:void(0);">取消</a>
+                    </div>
+                    <div class="notice">
+                        <p>请填写菜单名称!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+<script type="text/javascript" src="js/myscript.js"></script>
+</body>
+</html>
